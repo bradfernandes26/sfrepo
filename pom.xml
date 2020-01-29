@@ -59,7 +59,7 @@
                     <appName>mytestappbrad</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
-                        <web>java -jar ./target/my-app-1.0-jar-with-dependencies.jar</web>
+                        <web>http://mytestappbrad.herokuapp.com/</web>
                     </processTypes>
                 </configuration>
             </plugin>
