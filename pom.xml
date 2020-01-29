@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mycompany.app</groupId>
+    <groupId>bradnewapp</groupId>
     <artifactId>my-app</artifactId>
     <version>1.0</version>
 
@@ -56,10 +56,10 @@
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Heroku appname, can be found at https://dashboard.heroku.com/apps -->
-                    <appName>mytestappbrad</appName>
+                    <appName>bradnewapp</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
-                        <web>http://mytestappbrad.herokuapp.com/</web>
+                        <web>http://bradnewapp.herokuapp.com/</web>
                     </processTypes>
                 </configuration>
             </plugin>
